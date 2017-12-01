@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "googletest", "thirdparty\googletest.vcxproj", "{469B8101-5DFC-4ADF-8511-DE0230AA6C41}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "googletest_main", "thirdparty\googletest_main.vcxproj", "{A409E015-C2C2-4EED-944F-69A91FC908C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GildedRose", "GildedRose.vcxproj", "{469B8101-5DFC-4ADF-8511-DE0220AA6C41}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GildedRoseApp", "GildedRoseApp.vcxproj", "{9C9AE994-ADA5-4E06-B242-6F984E549A19}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GildedRoseTests", "GildedRoseTests.vcxproj", "{D393BA05-3969-4A1D-A14D-7A69AA0E7CB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "thirdparty", "thirdparty", "{D08927F3-0622-4B2E-BCAA-384F008A962E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{469B8101-5DFC-4ADF-8511-DE0230AA6C41} = {D08927F3-0622-4B2E-BCAA-384F008A962E}
+		{A409E015-C2C2-4EED-944F-69A91FC908C5} = {D08927F3-0622-4B2E-BCAA-384F008A962E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7EE72B4-C7AF-4CA2-A65E-6C2E170F6326}
+	EndGlobalSection
+EndGlobal
