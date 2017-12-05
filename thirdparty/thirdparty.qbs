@@ -33,6 +33,9 @@ Project {
                 FileInfo.joinPaths(project.googletestPath, "googletest/include")
             ]
             cpp.defines: "GTEST_LANG_CXX11"
+            cpp.staticLibraries: {
+                if (!qbs.targetOS.contains('windows')) return "pthread";
+            }
 
             property bool useMain: true
             Group {
