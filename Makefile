@@ -6,7 +6,7 @@ GTESTDIR=thirdparty/googletest/googletest
 INCLUDES=-I$(GTESTDIR) -I$(GTESTDIR)/include
 LINKFLAGS=
 
-ifeq ($(OS),Windows_NT)
+ifeq ($(shell echo "check_quotes"),"check_quotes")
 	PATHSEP2=\\
 	BINEXT=.exe
 	DELFILE=del
